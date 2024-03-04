@@ -93,7 +93,7 @@ var games = [
   {
     id: 'swerve',
     title: 'Swerve',
-    url: 'https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/iJa0TBSq/__start__.js',
+    url: 'https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/VecAxR3e/index.html',
     image: 'https://th.bing.com/th/id/OIP.CFRRtBXXyH_FP7XGCJwMdQAAAA?w=172&h=176&c=7&r=0&o=5&pid=1.7'
   },
   {
