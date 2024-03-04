@@ -37,18 +37,6 @@ var games = [
     image: 'https://play-lh.googleusercontent.com/I9aDLwmiy5iSjeUPs5IDI3lam8iWZ1zVnLF-V_EGvClOLuccjwLNNjZ8xltu4AN60io'
   },
   {
-    id: 'slitherio',
-    title: 'Slitherio',
-    url: 'https://slitherioonline.github.io/file/',
-    image: 'https://th.bing.com/th?id=OSK.938c48fc3a3f1693f013cf8651cd787c&w=148&h=148&c=7&o=6&pid=SANGAM'
-  },
-  {
-    id: 'zombsroyaleio',
-    title: 'Zombsroyaleio',
-    url: 'https://zombsroyale.io/',
-    image: 'https://th.bing.com/th?id=ODLS.7fa9ae45-fd72-4967-8243-87f42ba575a1&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2'
-  },
-  {
     id: '2048',
     title: '2048',
     url: 'https://www.2048.org/',
@@ -117,7 +105,7 @@ var games = [
   {
     id: '1v1lol',
     title: "1v1.lol",
-    url: 'https://1v1lolonline.github.io/1v1-lol-2/',
+    url: 'https://th.bing.com/th?id=OIP.YoWlgVsdn7jdPxdEO8xligHaEv&w=312&h=199&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2',
     image: 'https://play-lh.googleusercontent.com/-dE43Bqni_bUnq0L-piPxiJG4YiCotk5khMdrQaQBJrXJ3vSgjNeIaKyA34rBvKQSyOy'
   },
   { 
