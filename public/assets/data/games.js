@@ -37,13 +37,7 @@ var games = [
     image: 'https://play-lh.googleusercontent.com/I9aDLwmiy5iSjeUPs5IDI3lam8iWZ1zVnLF-V_EGvClOLuccjwLNNjZ8xltu4AN60io'
   },
   {
-    id: '1v1lol',
-    title: "1v1.lol",
-    url: 'https://1v1lolonline.github.io/1v1-lol-2/',
-    image: 'https://play-lh.googleusercontent.com/-dE43Bqni_bUnq0L-piPxiJG4YiCotk5khMdrQaQBJrXJ3vSgjNeIaKyA34rBvKQSyOy'
-  },
-  {
-      id: 'slitherio',
+    id: 'slitherio',
     title: 'Slitherio',
     url: 'https://slitherioonline.github.io/file/',
     image: 'https://th.bing.com/th?id=OSK.938c48fc3a3f1693f013cf8651cd787c&w=148&h=148&c=7&o=6&pid=SANGAM'
