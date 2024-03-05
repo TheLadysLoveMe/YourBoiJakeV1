@@ -122,6 +122,12 @@ var games = [
     image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/5cf218d2-f550-420c-8e55-7029efc5b4db.jpg'
   },
   {
+    id: 'retrobowl',
+    title: 'Retro Bowl',
+    url: 'https://retrobowl-unblocked.github.io/new/index.html',
+    image: 'https://th.bing.com/th?id=OSAAS.CDD47BC6053E909CB12886BBDA26D70B&w=80&h=80&c=1&rs=1&o=6&pid=5.1'
+  },
+  {
     id: 'brawlguys',
     title: 'Brawl Guys',
     url: 'https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/139948058740159493/files/index.html',
