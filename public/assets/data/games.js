@@ -124,7 +124,7 @@ var games = [
   {
     id: 'retrobowl',
     title: 'Retro Bowl',
-    url: 'https://retrobowl-unblocked.github.io/new/index.html',
+    url: 'https://ttfq.github.io/retrobowl/',
     image: 'https://th.bing.com/th?id=OSAAS.CDD47BC6053E909CB12886BBDA26D70B&w=80&h=80&c=1&rs=1&o=6&pid=5.1'
   },
   {
