@@ -105,7 +105,7 @@ var games = [
   {
     id: '1v1lol',
     title: "1v1.lol",
-    url: 'https://aim.lol/',
+    url: 'https://nowggnowggnowggnowggnowggnowggnowggnowggnowggnowggnowggnowgg.gg.coffe.ink/service/hvtrs8%2F-1t1%2Clml',
     image: 'https://www.allbusinesstemplates.com/thumbs/8757c0ff-ca9a-46d3-b009-a1c0113bdcfa_1.png'
   },
   { 
