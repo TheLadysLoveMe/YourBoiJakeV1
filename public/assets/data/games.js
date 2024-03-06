@@ -28,7 +28,7 @@ var games = [
     id: 'escapeprison',
     title: 'Henry Stickmin: Escaping the Prison',
     url: 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/escapingtheprison/index.html',
-    image: 'https://play-lh.googleusercontent.com/MKW0yzbpA-faDMztP2xkirlXsHwL7QutC_9VyQlbr4VTbPOyCZInL7zYG9EA4XpX4mtM'
+    image: 'https://www.allbusinesstemplates.com/thumbs/8757c0ff-ca9a-46d3-b009-a1c0113bdcfa_1.png'
   },
   {
     id: 'breakingthebank',
@@ -88,7 +88,7 @@ var games = [
     id: 'minecraft',
     title: 'Minecraft',
     url: 'https://minecraftunblocked.github.io/go/minecraft-1.8.8/',
-    image: 'https://cdn.iconscout.com/icon/free/png-256/minecraft-2752120-2284937.png'
+    image: 'https://www.allbusinesstemplates.com/thumbs/8757c0ff-ca9a-46d3-b009-a1c0113bdcfa_1.png'
   },
   {
     id: 'swerve',
@@ -106,7 +106,7 @@ var games = [
     id: '1v1lol',
     title: "1v1.lol",
     url: 'https://th.bing.com/th?id=OIP.YoWlgVsdn7jdPxdEO8xligHaEv&w=312&h=199&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2',
-    image: 'https://play-lh.googleusercontent.com/-dE43Bqni_bUnq0L-piPxiJG4YiCotk5khMdrQaQBJrXJ3vSgjNeIaKyA34rBvKQSyOy'
+    image: 'https://www.allbusinesstemplates.com/thumbs/8757c0ff-ca9a-46d3-b009-a1c0113bdcfa_1.png'
   },
   { 
     id: 'roblox',
@@ -125,7 +125,7 @@ var games = [
     id: 'retrobowl',
     title: 'Retro Bowl',
     url: 'https://retrobowlcollege.co/retro-bowl/',
-    image: 'https://th.bing.com/th?id=OSAAS.CDD47BC6053E909CB12886BBDA26D70B&w=80&h=80&c=1&rs=1&o=6&pid=5.1'
+    image: 'https://www.allbusinesstemplates.com/thumbs/8757c0ff-ca9a-46d3-b009-a1c0113bdcfa_1.png'
   },
   {
     id: 'brawlguys',
