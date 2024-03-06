@@ -46,30 +46,6 @@
         Launch in about:blank
       </button>
     </div>
-
-    <div class="links">
-      <div class="left">
-       
-      </div>
-
-      <div class="right">
-        <a href="./settings.html">Settings</a>
-        <a href="./about.html">Credits</a>
-      </div>
-    </div>
-  </body>
-
-  <script>
-    fetch('./assets/data/splash.json')
-      .then((res) => res.json())
-      .then((data) => {
-        document.querySelector('#splash').innerHTML =
-          data[Math.floor(Math.random() * data.length)]
-      })
-  </script>
-
-  <script src="./js/index.js"></script>
-</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -112,4 +88,28 @@
     <div id="quote"></div>
     <div id="author"></div>
 </body>
+</html>
+
+    <div class="links">
+      <div class="left">
+       
+      </div>
+
+      <div class="right">
+        <a href="./settings.html">Settings</a>
+        <a href="./about.html">Credits</a>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    fetch('./assets/data/splash.json')
+      .then((res) => res.json())
+      .then((data) => {
+        document.querySelector('#splash').innerHTML =
+          data[Math.floor(Math.random() * data.length)]
+      })
+  </script>
+
+  <script src="./js/index.js"></script>
 </html>
