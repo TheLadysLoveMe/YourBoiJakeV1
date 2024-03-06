@@ -54,31 +54,50 @@
     <title>Quote of the Day</title>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Function to fetch the quote of the day from the API
+            // Function to fetch the quote of the day from the API or local storage
             function getQuoteOfTheDay() {
-                // API endpoint for fetching random quotes
-                var endpoint = "https://api.quotable.io/random";
+                // Check if there's a stored quote and its timestamp in local storage
+                var storedQuote = localStorage.getItem("quote");
+                var storedTimestamp = localStorage.getItem("timestamp");
 
-                // Make a GET request to the API
+                // If there's a stored quote and its timestamp is less than 24 hours old, display the stored quote
+                if (storedQuote && storedTimestamp) {
+                    var timestampDiff = new Date().getTime() - new Date(storedTimestamp).getTime();
+                    var hoursDiff = timestampDiff / (1000 * 60 * 60);
+
+                    if (hoursDiff < 24) {
+                        var quote = JSON.parse(storedQuote);
+                        displayQuote(quote.content, quote.author);
+                        return;
+                    }
+                }
+
+                // Otherwise, fetch a new quote from the API
+                var endpoint = "https://api.quotable.io/random";
                 fetch(endpoint)
                 .then(response => response.json())
                 .then(data => {
-                    // Extract the quote and author from the response
-                    var quote = data.content;
-                    var author = data.author;
-                    
-                    // Display the quote on the HTML page
-                    document.getElementById("quote").textContent = `"${quote}"`;
-                    document.getElementById("author").textContent = `— ${author}`;
+                    // Store the fetched quote and its timestamp in local storage
+                    localStorage.setItem("quote", JSON.stringify(data));
+                    localStorage.setItem("timestamp", new Date().toISOString());
+
+                    // Display the fetched quote
+                    displayQuote(data.content, data.author);
                 })
                 .catch(error => {
                     // Display an error message if the API request fails
                     console.error("Error fetching the quote:", error);
-                    document.getElementById("quote").textContent = "Unable to fetch the quote of the day. Please try again later.";
+                    displayQuote("Unable to fetch the quote of the day. Please try again later.");
                 });
             }
 
-            // Call the function to fetch the quote of the day when the page loads
+            // Function to display the quote on the HTML page
+            function displayQuote(quote, author) {
+                document.getElementById("quote").textContent = `"${quote}"`;
+                document.getElementById("author").textContent = `— ${author}`;
+            }
+
+            // Call the function to fetch or retrieve the quote of the day when the page loads
             getQuoteOfTheDay();
         });
     </script>
@@ -88,28 +107,4 @@
     <div id="quote"></div>
     <div id="author"></div>
 </body>
-</html>
-
-    <div class="links">
-      <div class="left">
-       
-      </div>
-
-      <div class="right">
-        <a href="./settings.html">Settings</a>
-        <a href="./about.html">Credits</a>
-      </div>
-    </div>
-  </body>
-
-  <script>
-    fetch('./assets/data/splash.json')
-      .then((res) => res.json())
-      .then((data) => {
-        document.querySelector('#splash').innerHTML =
-          data[Math.floor(Math.random() * data.length)]
-      })
-  </script>
-
-  <script src="./js/index.js"></script>
 </html>
