@@ -105,7 +105,7 @@ var games = [
   {
     id: '1v1lol',
     title: "1v1.lol",
-    url: 'https://www.allbusinesstemplates.com/thumbs/8757c0ff-ca9a-46d3-b009-a1c0113bdcfa_1.png',
+    url: 'https://boxfight.io/',
     image: 'https://www.allbusinesstemplates.com/thumbs/8757c0ff-ca9a-46d3-b009-a1c0113bdcfa_1.png'
   },
   { 
