@@ -111,7 +111,7 @@ var games = [
   {
     id: '1v1lol',
     title: "1v1.lol",
-    url: 'https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1434808215804214&output=html&h=90&slotname=6227742594&adk=1808857401&adf=1856754889&pi=t.ma~as.6227742594&w=1096&lmt=1709738457&rafmt=12&format=1096x90&url=https%3A%2F%2Fehab.helooo.com%2Fgameurl%3Fgameid%3D%24308925&wgl=1&uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTIyLjAuNjI2MS45NSIsbnVsbCwwLG51bGwsIjY0IixbWyJDaHJvbWl1bSIsIjEyMi4wLjYyNjEuOTUiXSxbIk5vdChBOkJyYW5kIiwiMjQuMC4wLjAiXSxbIkdvb2dsZSBDaHJvbWUiLCIxMjIuMC42MjYxLjk1Il1dLDBd&dt=1709738457900&bpp=2&bdt=311&idt=2&shv=r20240305&mjsv=m202402290101&ptt=9&saldr=aa&abxe=1&prev_fmts=0x0&nras=1&correlator=5261332796791&frm=20&pv=1&ga_vid=290450757.1709738314&ga_sid=1709738458&ga_hid=51720122&ga_fc=1&u_tz=-300&u_his=10&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_sd=1&dmc=8&adx=28&ady=224&biw=1356&bih=919&scr_x=0&scr_y=0&eid=44759876%2C44759927%2C44759842%2C42531706%2C44795921%2C95325752%2C95325975%2C95324160%2C95325784%2C95326916%2C31078663%2C31078665%2C31078668%2C31078670&oid=2&pvsid=36524908222829&tmod=757157770&uas=0&nvt=1&ref=https%3A%2F%2Fehab.helooo.com%2Fallgames&fc=1920&brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1040%2C1366%2C919&vis=1&rsz=%7C%7CoEe%7C&abl=CS&pfx=0&fu=256&bc=31&bz=1.41&td=1&psd=W251bGwsbnVsbCxudWxsLDFd&nt=1&ifi=2&uci=a!2&fsb=1&dtd=6',
+    url: 'https://www.allbusinesstemplates.com/thumbs/8757c0ff-ca9a-46d3-b009-a1c0113bdcfa_1.png',
     image: 'https://www.allbusinesstemplates.com/thumbs/8757c0ff-ca9a-46d3-b009-a1c0113bdcfa_1.png'
   },
   { 
@@ -130,7 +130,7 @@ var games = [
   {
     id: 'retrobowl',
     title: 'Retro Bowl',
-    url: 'https://retrobowlcollege.co/retro-bowl/',
+    url: 'https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1434808215804214&output=html&h=599&slotname=6227742594&adk=2042780945&adf=521995924&pi=t.ma~as.6227742594&w=256&lmt=1709738651&rafmt=12&format=256x599&url=https%3A%2F%2Fehab.helooo.com%2Fgameurl%3Fgameid%3D%24439804&wgl=1&uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTIyLjAuNjI2MS45NSIsbnVsbCwwLG51bGwsIjY0IixbWyJDaHJvbWl1bSIsIjEyMi4wLjYyNjEuOTUiXSxbIk5vdChBOkJyYW5kIiwiMjQuMC4wLjAiXSxbIkdvb2dsZSBDaHJvbWUiLCIxMjIuMC42MjYxLjk1Il1dLDBd&dt=1709738651519&bpp=1&bdt=131&idt=58&shv=r20240305&mjsv=m202402290101&ptt=9&saldr=aa&abxe=1&prev_fmts=0x0%2C1428x90&nras=1&correlator=7748460110662&frm=20&pv=1&ga_vid=290450757.1709738314&ga_sid=1709738652&ga_hid=697212201&ga_fc=1&u_tz=-300&u_his=12&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_sd=1&dmc=8&adx=1200&ady=326&biw=1910&bih=919&scr_x=0&scr_y=0&eid=44759876%2C44759927%2C44759842%2C42532524%2C95322748%2C95325752%2C95326315%2C95327082%2C95324161%2C95325785%2C95326918%2C31078663%2C31078665%2C31078668%2C31078670&oid=2&pvsid=3945083062266714&tmod=757157770&uas=0&nvt=1&ref=https%3A%2F%2Fehab.helooo.com%2Fallgames&fc=1920&brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1040%2C1920%2C919&vis=1&rsz=%7C%7CoeE%7C&abl=CS&pfx=0&fu=256&bc=31&bz=1&td=1&psd=W251bGwsbnVsbCxudWxsLDFd&nt=1&ifi=3&uci=a!3&fsb=1&dtd=62',
     image: 'https://www.allbusinesstemplates.com/thumbs/8757c0ff-ca9a-46d3-b009-a1c0113bdcfa_1.png'
   },
   {
