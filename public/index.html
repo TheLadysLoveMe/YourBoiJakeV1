@@ -3,10 +3,10 @@
   <head>
     <link
       rel="shortcut icon"
-      href="https://i.imgflip.com/6ej3bl.png"
+      href="./assets/images/icon.png"
       type="image/png"
     />
-    <title>YoboiJake</title>
+    <title>Art Class</title>
 
     <link rel="stylesheet" href="./css/master.css" />
 
@@ -18,8 +18,8 @@
   <body theme="main">
     <nav>
       <div class="logo">
-        <img src="https://i.imgflip.com/6ej3bl.png" draggable="false" />
-        <h1>YoboiJake</h1>
+        <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+        <h1>Art Class</h1>
       </div>
 
       <p id="time"></p>
@@ -28,83 +28,47 @@
         <div class="navitem"><a selected href="/">Home</a></div>
         <div class="navitem"><a href="/gs.html">Games</a></div>
         <div class="navitem"><a href="/apps.html">Apps</a></div>
-        <div class="navitem"><a href="/ChatGpt.html">ChatGpt</a></div>
+        <div class="navitem"><a href="/emulator.html">Emulator</a></div>
+        <div class="navitem"><a href="/search.html">Search</a></div>
       </div>
     </nav>
 
     <div class="center-container">
-      <h1>Welcome to YoBoiJake<YoBoiJake</span></h1>
+      <h1>Welcome to <span>Art Class</span></h1>
       <p id="splash"></p>
       <br />
       <button
-        onclick="window.location.href='/search.html?q=https://docs.google.com/document/d/1qbHwVznXMPcr4El8SHd7pz88WOn9sG-ABZ6JgKX8yGA/edit?usp=sharing'"
+        onclick="window.location.href='/search.html?q=https://discord.gg/tMaHQ2dyk5'"
         class="button play"
       >
-        Fix Games
+        Join our Discord
       </button>
       <button onclick="launchab()" id="launchab" class="button play">
         Launch in about:blank
       </button>
     </div>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quote of the Day</title>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Function to fetch the quote of the day from the API or local storage
-            function getQuoteOfTheDay() {
-                // Check if there's a stored quote and its timestamp in local storage
-                var storedQuote = localStorage.getItem("quote");
-                var storedTimestamp = localStorage.getItem("timestamp");
 
-                // If there's a stored quote and its timestamp is less than 24 hours old, display the stored quote
-                if (storedQuote && storedTimestamp) {
-                    var timestampDiff = new Date().getTime() - new Date(storedTimestamp).getTime();
-                    var hoursDiff = timestampDiff / (1000 * 60 * 60);
+    <div class="links">
+      <div class="left">
+        <a href="https://github.com/art-class/v4">GitHub</a>
+        <a href="https://discord.gg/tMaHQ2dyk5">Discord</a>
+      </div>
 
-                    if (hoursDiff < 24) {
-                        var quote = JSON.parse(storedQuote);
-                        displayQuote(quote.content, quote.author);
-                        return;
-                    }
-                }
+      <div class="right">
+        <a href="./settings.html">Settings</a>
+        <a href="./about.html">About</a>
+      </div>
+    </div>
+  </body>
 
-                // Otherwise, fetch a new quote from the API
-                var endpoint = "https://api.quotable.io/random";
-                fetch(endpoint)
-                .then(response => response.json())
-                .then(data => {
-                    // Store the fetched quote and its timestamp in local storage
-                    localStorage.setItem("quote", JSON.stringify(data));
-                    localStorage.setItem("timestamp", new Date().toISOString());
+  <script>
+    fetch('./assets/data/splash.json')
+      .then((res) => res.json())
+      .then((data) => {
+        document.querySelector('#splash').innerHTML =
+          data[Math.floor(Math.random() * data.length)]
+      })
+  </script>
 
-                    // Display the fetched quote
-                    displayQuote(data.content, data.author);
-                })
-                .catch(error => {
-                    // Display an error message if the API request fails
-                    console.error("Error fetching the quote:", error);
-                    displayQuote("Unable to fetch the quote of the day. Please try again later.");
-                });
-            }
-
-            // Function to display the quote on the HTML page
-            function displayQuote(quote, author) {
-                document.getElementById("quote").textContent = `"${quote}"`;
-                document.getElementById("author").textContent = `— ${author}`;
-            }
-
-            // Call the function to fetch or retrieve the quote of the day when the page loads
-            getQuoteOfTheDay();
-        });
-    </script>
-</head>
-<body>
-    <h1>Quote of the Day</h1>
-    <div id="quote"></div>
-    <div id="author"></div>
-</body>
+  <script src="./js/index.js"></script>
 </html>
