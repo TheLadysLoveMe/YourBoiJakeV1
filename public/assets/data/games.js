@@ -73,10 +73,10 @@ var games = [
     image: 'https://th.bing.com/th/id/OIP.Cyx-tvXuVrSjk-U33dQdWgHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7'
   },
   {
-    id: 'monkeymart',
-    title: 'Monkey Mart',
-    url: 'https://revolution641.github.io/nativegames.net/monkey-mart/',
-    image: 'https://tse4.mm.bing.net/th?id=OIP.lc9xbUp6Lilut70XbpO-dgAAAA&pid=Api&P=0&h=180'
+    id: 'holeyio',
+    title: 'Holey.io',
+    url: 'https://games.crazygames.com/es_ES/holey-io-battle-royale/index.html?v=1.273',
+    image: 'https://images.crazygames.com/games/holey-io-battle-royale/cover_1x1-1698054343903.png?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&w=110'
   },
   {
     id: 'soundboard',
