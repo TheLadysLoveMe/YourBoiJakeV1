@@ -73,12 +73,6 @@ var games = [
     image: 'https://th.bing.com/th/id/OIP.Cyx-tvXuVrSjk-U33dQdWgHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7'
   },
   {
-    id: 'minecraft',
-    title: 'Minecraft',
-    url: 'https://unbl0ck.github.io/games/minecraft/index.html?join=klh16Q3mUE9CgsQ7',
-    image: 'https://unbl0ck.github.io/games/img/minecraft.png'
-  },
-  {
     id: 'soundboard',
     title: 'SoundBoard',
     url: 'https://www.myinstants.com/categories/sound%20effects/',
