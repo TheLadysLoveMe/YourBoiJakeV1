@@ -73,10 +73,10 @@ var games = [
     image: 'https://th.bing.com/th/id/OIP.Cyx-tvXuVrSjk-U33dQdWgHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7'
   },
   {
-    id: 'holeyio',
-    title: 'Holey.io',
-    url: 'https://holey-io-battle-royale.game-files.crazygames.com/holey-io-battle-royale/6/index.html',
-    image: 'https://images.crazygames.com/games/holey-io-battle-royale/cover_1x1-1698054343903.png?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&w=110'
+    id: 'minecraft',
+    title: 'Minecraft
+    url: 'https://unbl0ck.github.io/games/minecraft/index.html?join=klh16Q3mUE9CgsQ7',
+    image: 'https://unbl0ck.github.io/games/img/minecraft.png'
   },
   {
     id: 'soundboard',
