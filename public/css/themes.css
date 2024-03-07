@@ -11,10 +11,10 @@ body[theme="midnight"] {
     --accent: #0284d4;
 }
 body[theme="main"] {
-    --text-color: red;
+    --text-color: white;
     --background: black;
     --navbar: black;
-    --accent: red;
+    --accent: white;
 }
 body[theme="lgbtq"] {
     --text-color: black;
