@@ -85,12 +85,6 @@ var games = [
     image: 'https://upload.wikimedia.org/wikipedia/en/3/35/Geometry_Dash_Logo.PNG'
   },
   {
-    id: 'minecraft',
-    title: 'Minecraft',
-    url: 'https://minecraftunblocked.github.io/go/minecraft-1.8.8/',
-    image: 'https://www.allbusinesstemplates.com/thumbs/8757c0ff-ca9a-46d3-b009-a1c0113bdcfa_1.png'
-  },
-  {
     id: 'swerve',
     title: 'Swerve',
     url: 'https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/VecAxR3e/index.html',
