@@ -71,3 +71,65 @@
 
   <script src="./js/index.js"></script>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote of the Day</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Function to fetch the quote of the day from the API or local storage
+            function getQuoteOfTheDay() {
+                // Check if there's a stored quote and its timestamp in local storage
+                var storedQuote = localStorage.getItem("quote");
+                var storedTimestamp = localStorage.getItem("timestamp");
+
+                // If there's a stored quote and its timestamp is less than 24 hours old, display the stored quote
+                if (storedQuote && storedTimestamp) {
+                    var timestampDiff = new Date().getTime() - new Date(storedTimestamp).getTime();
+                    var hoursDiff = timestampDiff / (1000 * 60 * 60);
+
+                    if (hoursDiff < 24) {
+                        var quote = JSON.parse(storedQuote);
+                        displayQuote(quote.content, quote.author);
+                        return;
+                    }
+                }
+
+                // Otherwise, fetch a new quote from the API
+                var endpoint = "https://api.quotable.io/random";
+                fetch(endpoint)
+                .then(response => response.json())
+                .then(data => {
+                    // Store the fetched quote and its timestamp in local storage
+                    localStorage.setItem("quote", JSON.stringify(data));
+                    localStorage.setItem("timestamp", new Date().toISOString());
+
+                    // Display the fetched quote
+                    displayQuote(data.content, data.author);
+                })
+                .catch(error => {
+                    // Display an error message if the API request fails
+                    console.error("Error fetching the quote:", error);
+                    displayQuote("Unable to fetch the quote of the day. Please try again later.");
+                });
+            }
+
+            // Function to display the quote on the HTML page
+            function displayQuote(quote, author) {
+                document.getElementById("quote").textContent = `"${quote}"`;
+                document.getElementById("author").textContent = `— ${author}`;
+            }
+
+            // Call the function to fetch or retrieve the quote of the day when the page loads
+            getQuoteOfTheDay();
+        });
+    </script>
+</head>
+<body>
+    <h1>Quote of the Day</h1>
+    <div id="quote"></div>
+    <div id="author"></div>
+</body>
+</html>
