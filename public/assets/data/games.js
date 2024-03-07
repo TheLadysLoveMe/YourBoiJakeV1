@@ -81,7 +81,7 @@ var games = [
   {
     id: 'geometrydash',
     title: 'Geometry Dash',
-    url: 'https://scratch.mit.edu/projects/105500895/embed',
+    url: 'https://www.phantomgames.dev/game/geometry-dash-remastered/index.html',
     image: 'https://upload.wikimedia.org/wikipedia/en/3/35/Geometry_Dash_Logo.PNG'
   },
   {
