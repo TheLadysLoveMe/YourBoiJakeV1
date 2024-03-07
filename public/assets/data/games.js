@@ -75,7 +75,7 @@ var games = [
   {
     id: 'holeyio',
     title: 'Holey.io',
-    url: 'https://games.crazygames.com/es_ES/holey-io-battle-royale/index.html?v=1.273',
+    url: 'https://holey-io-battle-royale.game-files.crazygames.com/holey-io-battle-royale/6/index.html',
     image: 'https://images.crazygames.com/games/holey-io-battle-royale/cover_1x1-1698054343903.png?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&w=110'
   },
   {
