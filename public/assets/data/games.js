@@ -74,7 +74,7 @@ var games = [
   },
   {
     id: 'minecraft',
-    title: 'Minecraft
+    title: 'Minecraft',
     url: 'https://unbl0ck.github.io/games/minecraft/index.html?join=klh16Q3mUE9CgsQ7',
     image: 'https://unbl0ck.github.io/games/img/minecraft.png'
   },
