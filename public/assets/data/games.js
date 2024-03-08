@@ -105,7 +105,7 @@ var games = [
   { 
     id: 'retrobowl',
     title: 'Retro Bowl',
-    url: 'https://plexilearcade.glitch.me/gamescode/retrobowl/index.html',
+    url: 'https://i7kuj.panonit.rs/game/retro-bowl/index.html',
     image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/5cf218d2-f550-420c-8e55-7029efc5b4db.jpg'
   },
   {
