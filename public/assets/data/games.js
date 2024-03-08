@@ -103,6 +103,12 @@ var games = [
     image: 'https://tse2.mm.bing.net/th?id=OIP.W4iXiVKmFVKt9y99It-wXwHaFt&pid=Api&P=0&h=180'
   },
   { 
+    id: 'retrobowl',
+    title: 'Retro Bowl',
+    url: 'https://plexilearcade.glitch.me/gamescode/retrobowl/index.html',
+    image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/5cf218d2-f550-420c-8e55-7029efc5b4db.jpg'
+  },
+  {
     id: 'roblox',
     title: 'Roblox',
     url: 'https://educationbluesky.com/',
@@ -114,12 +120,6 @@ var games = [
     title: 'Recoil',
     url: 'https://rawcdn.githack.com/nightrose-labs/quartz/b0687b5099af0b76aedf37743f2d03cbeef26467/2/5cf218d2-f550-420c-8e55-7029efc5b4db/index.html',
     image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/5cf218d2-f550-420c-8e55-7029efc5b4db.jpg'
-  },
-  {
-    id: 'retrobowl',
-    title: 'Retro Bowl',
-    url: 'https://plexilearcade.glitch.me/gamescode/retrobowl/index.html',
-    image: 'https://tse3.mm.bing.net/th?id=OIP.UMYLPqyFiizzvuP-gG4ugQAAAA&pid=Api&P=0&h=180'
   },
   {
     id: 'brawlguys',
