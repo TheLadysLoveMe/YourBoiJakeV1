@@ -105,8 +105,8 @@ var games = [
   { 
     id: 'retrobowl',
     title: 'Retro Bowl',
-    url: 'https://i7kuj.panonit.rs/game/retro-bowl/index.html',
-    image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/5cf218d2-f550-420c-8e55-7029efc5b4db.jpg'
+    url: 'gamescode/retrobowl.html',
+    image: 'https://tse3.mm.bing.net/th?id=OIP.nYmqfqUPp02WXxzjfA-ULgAAAA&pid=Api&P=0&h=180'
   },
   {
     id: 'roblox',
