@@ -106,7 +106,7 @@ var games = [
     id: 'retrobowl',
     title: 'Retro Bowl',
     url: 'https://ttfq.github.io/retrobowl/',
-    image: 'https://tse3.mm.bing.net/th?id=OIP.nYmqfqUPp02WXxzjfA-ULgAAAA&pid=Api&P=0&h=180'
+    image: 'https://tse2.mm.bing.net/th?id=OIP.W4iXiVKmFVKt9y99It-wXwHaFt&pid=Api&P=0&h=180'
   },
   {
     id: 'roblox',
