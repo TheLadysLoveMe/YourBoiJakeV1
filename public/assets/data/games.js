@@ -118,7 +118,7 @@ var games = [
   {
     id: 'retrobowl',
     title: 'Retro Bowl',
-    url: 'https://generatedsite13.sprk.lol/assets/rb/index.html',
+    url: 'https://plexilearcade.glitch.me/gamescode/retrobowl/index.html',
     image: 'https://tse3.mm.bing.net/th?id=OIP.UMYLPqyFiizzvuP-gG4ugQAAAA&pid=Api&P=0&h=180'
   },
   {
