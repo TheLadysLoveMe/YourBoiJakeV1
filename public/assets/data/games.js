@@ -148,5 +148,3 @@ if (customgames) console.log("Loaded " + customgames.length + " custom games")
 
 console.log("Loaded " + games.length + " games")
 if (customgames) console.log("Loaded " + customgames.length + " custom games")
-  }
-]
