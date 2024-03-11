@@ -1,150 +1,732 @@
-var games = [
+[
   {
-    id: 'customgame',
-    title: 'Add custom game',
-    image: 'assets/images/add.png'
+    "link": "projects/1/index.html",
+    "imgSrc": "projects/1/meta/apple-touch-icon.png",
+    "title": "1"
   },
   {
-    id: 'cookieclicker',
-    title: 'Cookie Clicker',
-    description: 'Cookie Clicker is an addictive incremental game where players click to produce cookies, unlock upgrades, and aim to amass an ever-growing mountain of delicious digital treats.',
-    url: 'https://sushi8756.github.io/Cookie-Clicker-2.031/',
-    image: 'https://cdn.discordapp.com/icons/339131488111034389/73f15cd93d96504af9877a53816d110c.png'
+    "link": "projects/1v1space/index.html",
+    "imgSrc": "projects/1v1space/splash.png",
+    "title": "1v1.space"
   },
   {
-    id: 'fbwg',
-    title: 'Fireboy and Watergirl',
-    description: 'A 2 player game where you have to work together using logic and teamwork to get to the finish line.',
-    url: 'https://educationgg-23704.web.app/games/FBWG4-main/index.html',
-    image: 'https://play-lh.googleusercontent.com/5-YcjiTyMrPJEZe078dHMxnCxcg2A_8NWJZQieRvn2Gkf8JOuHZEbTmFyQ9gn5p2lnU'
+    "link": "projects/2048/index.html",
+    "imgSrc": "projects/2048/thumb.png",
+    "title": "2048"
   },
   {
-    id: 'bloxerz',
-    title: 'Bloxerz',
-    url: 'https://www.ehabgames.com/games/bloxors/index.html',
-    image: 'https://th.bing.com/th?id=OIP.6jjUQ7Niv2cl4NvkOrkf_QAAAA&w=255&h=244&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2'
+    "link": "projects/9007199254740992/index.html",
+    "imgSrc": "projects/9007199254740992/logo-4.png",
+    "title": "9007199254740992"
   },
   {
-    id: 'driftboss',
-    title: 'Drift Boss',
-    image: 'https://play-lh.googleusercontent.com/fLrnXuD1B0w6FEDJ1UKmv_TYbNyJ4GwzsQu9ltx57MfIj037nig4cVunG3CYmczkjMDA',
-    url: 'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://738501629-461082748261058427.preview.editmysite.com/uploads/b/139890129-817510652323129407/files/drbo.xml'
+    "link": "projects/achievementunlocked/index.html",
+    "imgSrc": "projects/achievementunlocked/achievementunlocked.png",
+    "title": "Achievement Unlocked"
   },
   {
-    id: 'breakingthebank',
-    title: 'Henry Stickmin: Breaking the Bank',
-    url: 'https://art-class.github.io/assets/breakingthebank/index.html',
-    image: 'https://play-lh.googleusercontent.com/I9aDLwmiy5iSjeUPs5IDI3lam8iWZ1zVnLF-V_EGvClOLuccjwLNNjZ8xltu4AN60io'
+    "link": "projects/adrenalinechallenge/index.html",
+    "imgSrc": "projects/adrenalinechallenge/adrenalinechallenge.jpg",
+    "title": "Adrenaline Challenge"
   },
   {
-    id: '2048',
-    title: '2048',
-    url: 'https://www.2048.org/',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/220px-2048_logo.svg.png'
+    "link": "projects/among-us/index.html",
+    "imgSrc": "projects/among-us/red.png",
+    "title": "Among Us"
   },
   {
-    id: 'googlesnake',
-    title: 'Google Snake',
-    url: 'https://www.google.com/fbx?fbx=snake_arcade',
-    image: 'https://th.bing.com/th/id/OIP.-Bdzvy87SmMmkN8X8si0mAHaFR?w=254&h=180&c=7&r=0&o=5&pid=1.7'
+    "link": "projects/avalanche/index.html",
+    "imgSrc": "projects/avalanche/avalanche.png",
+    "title": "Avalanche"
   },
   {
-    id: 'slow roads',
-    title: 'Slow Roads',
-    url: 'https://slowroads.io/',
-    image: 'https://slowroads.io/static/media/splash-logo-placeholder-7b.2d60164d.png'
+    "link": "projects/backrooms/index.html",
+    "imgSrc": "projects/backrooms/img/splash.jpg",
+    "title": "Backrooms"
   },
   {
-    id: 'littlealchemy',
-    title: 'Little Alchemy',
-    url: 'https://littlealchemy.com',
-    image: 'https://play-lh.googleusercontent.com/-NQ2QLAOaafy7iHAJcrdEFk-tyVicnbwy6iLehml8K0Higi60sSVn0829bcyi1lOUw'
-   },
-  {
-    id: 'littlealchemy2',
-    title: 'Little Alchemy 2',
-    url: 'https://littlealchemy2.com/',
-    image: 'https://hints.littlealchemy2.com/img/la2-logo.svg' 
+    "link": "projects/basketball-stars/index.html",
+    "imgSrc": "projects/basketball-stars/assets/images/basketball-stars.png",
+    "title": "Basketball Stars"
   },
   {
-    id: 'chromedino',
-    title: 'ChromeDino',
-    url: 'https://chrome-dino.com/',
-    image: 'https://th.bing.com/th/id/OIP.Cyx-tvXuVrSjk-U33dQdWgHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7'
+    "link": "projects/battleforgondor/index.html",
+    "imgSrc": "projects/battleforgondor/3557.jpg",
+    "title": "Battle for Gondor"
   },
   {
-    id: 'soundboard',
-    title: 'SoundBoard',
-    url: 'https://www.myinstants.com/categories/sound%20effects/',
-    image: 'https://th.bing.com/th?id=ODLS.a14279a1-2396-4c5e-a1d2-a7062e7ae498&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2'
+    "link": "projects/bigredbutton/index.html",
+    "imgSrc": "projects/bigredbutton/bigredbutton.png",
+    "title": "Big Red Button"
   },
   {
-    id: 'geometrydash',
-    title: 'Geometry Dash',
-    url: 'https://www.phantomgames.dev/game/geometry-dash-remastered/index.html',
-    image: 'https://upload.wikimedia.org/wikipedia/en/3/35/Geometry_Dash_Logo.PNG'
+    "link": "projects/blackknight/index.html",
+    "imgSrc": "projects/blackknight/blackknight.png",
+    "title": "Black Knight"
   },
   {
-    id: 'swerve',
-    title: 'Swerve',
-    url: 'https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/VecAxR3e/index.html',
-    image: 'https://th.bing.com/th/id/OIP.CFRRtBXXyH_FP7XGCJwMdQAAAA?w=172&h=176&c=7&r=0&o=5&pid=1.7'
+    "link": "projects/bloonstd/index.html",
+    "imgSrc": "projects/bloonstd/bloonstd.jpg",
+    "title": "Bloons TD"
   },
   {
-    id: 'baskletballstars',
-    title: 'Basketball Stars',
-    url: 'https://basketball-stars.pro/g2/bbstars/',
-    image: 'https://th.bing.com/th/id/OIP.Jh8m7AFwi2ApbNbXY2qe3gAAAA?w=219&h=180&c=7&r=0&o=5&pid=1.7'
+    "link": "projects/bloonstd2/index.html",
+    "imgSrc": "projects/bloonstd2/bloonstd2.png",
+    "title": "Bloons TD 2"
   },
   {
-    id: '1v1lol',
-    title: "1v1.lol",
-    url: 'https://nowggnowggnowggnowggnowggnowggnowggnowggnowggnowggnowggnowgg.gg.coffe.ink/lessons?pg=449#f18k3kkvo78luou',
-    image: 'https://tse2.mm.bing.net/th?id=OIP.W4iXiVKmFVKt9y99It-wXwHaFt&pid=Api&P=0&h=180'
-  },
-  { 
-    id: 'retrobowl',
-    title: 'Retro Bowl',
-    url: 'gamescode/retrobowl.html',
-    image: 'https://tse2.mm.bing.net/th?id=OIP.W4iXiVKmFVKt9y99It-wXwHaFt&pid=Api&P=0&h=180'
+    "link": "projects/bloxors/index.html",
+    "imgSrc": "projects/bloxors/block.png",
+    "title": "Bloxors"
   },
   {
-    id: 'roblox',
-    title: 'Roblox',
-    url: 'https://educationbluesky.com/',
-    image: 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht=w240-h480-rw',
-    description: 'EXPERIMENTAL: This may or may not work for you. Please don\'t report it if it doesn\'t. If you have bad WiFi, it may load slower than usual (Advice: This works better at your house).'
+    "link": "projects/boxhead2play/index.html",
+    "imgSrc": "projects/boxhead2play/boxhead2play.jpg",
+    "title": "Box Head"
   },
   {
-    id: 'recoil',
-    title: 'Recoil',
-    url: 'https://rawcdn.githack.com/nightrose-labs/quartz/b0687b5099af0b76aedf37743f2d03cbeef26467/2/5cf218d2-f550-420c-8e55-7029efc5b4db/index.html',
-    image: 'https://rawcdn.githack.com/nightrose-labs/quartz/master/thumb/5cf218d2-f550-420c-8e55-7029efc5b4db.jpg'
+    "link": "projects/breakingthebank/index.html",
+    "imgSrc": "projects/breakingthebank/breakingthebank.png",
+    "title": "Breaking the Bank"
   },
   {
-    id: 'brawlguys',
-    title: 'Brawl Guys',
-    url: 'https://smartfoloosanta.bitbucket.io/retro-bowl/',
-    image: 'https://play-lh.googleusercontent.com/EiElcSrd6-o-19roiswSx0AZPzsq6qF3hUGHsSWDl5UVtj7G23DHkneM8ucwqyOmEg'
+    "link": "projects/btts/index.html",
+    "imgSrc": "projects/btts/images.png",
+    "title": "Big Tower Tiny Square"
+  },
+  {
+    "link": "projects/cannon-basketball-4/index.html",
+    "imgSrc": "projects/cannon-basketball-4/img/splash.png",
+    "title": "Cannon Basketball 4"
+  },
+  {
+    "link": "projects/canyondefense/index.html",
+    "imgSrc": "projects/canyondefense/canyondefense.png",
+    "title": "Canyon Defense"
+  },
+  {
+    "link": "projects/cell-machine/index.html",
+    "imgSrc": "projects/cell-machine/img/te9nDu.png",
+    "title": "Cell Machine"
+  },
+  {
+    "link": "projects/championarcher/index.html",
+    "imgSrc": "projects/championarcher/championarcher.png",
+    "title": "Champion Archer"
+  },
+  {
+    "link": "projects/chrome-dino/index.html",
+    "imgSrc": "projects/chrome-dino/icons/icon-256.png",
+    "title": "Chrome Dino"
+  },
+  {
+    "link": "projects/circlo/index.html",
+    "imgSrc": "projects/circlo/img/download.png",
+    "title": "circlO"
+  },
+  {
+    "link": "projects/connect3/index.html",
+    "imgSrc": "projects/connect3/connect3.png",
+    "title": "Connect 3"
+  },
+  {
+    "link": "projects/cookie-clicker/index.html",
+    "imgSrc": "projects/cookie-clicker/cookie1.jpeg",
+    "title": "Cookie Clicker"
+  },
+  {
+    "link": "projects/craftmine/index.html",
+    "imgSrc": "projects/craftmine/images/craftmine.png",
+    "title": "CraftMine"
+  },
+  {
+    "link": "projects/creativekillchamber/index.html",
+    "imgSrc": "projects/creativekillchamber/creativekillchamber.jpg",
+    "title": "Creative Kill Chamber"
+  },
+  {
+    "link": "projects/csgo-clicker/index.html",
+    "imgSrc": "projects/csgo-clicker/images/vanguard.png",
+    "title": "CS:GO Clicker"
+  },
+  {
+    "link": "projects/ctr/index.html",
+    "imgSrc": "projects/ctr/logo.png",
+    "title": "Cut the Rope"
+  },
+  {
+    "link": "projects/ctr-holiday/index.html",
+    "imgSrc": "projects/ctr-holiday/Holiday_Gift.webp",
+    "title": "Cut the Rope Holiday"
+  },
+  {
+    "link": "projects/ctr-tr/index.html",
+    "imgSrc": "projects/ctr-tr/logo.png",
+    "title": "Cut the Rope Time Travel"
+  },
+  {
+    "link": "projects/cubefield/index.html",
+    "imgSrc": "projects/cubefield/cubefield.jpg",
+    "title": "Cubefield"
+  },
+  {
+    "link": "projects/cupcake2048/index.html",
+    "imgSrc": "projects/cupcake2048/favicon.png",
+    "title": "Cupcake 2048"
+  },
+  {
+    "link": "projects/deal-or-no-deal/index.html",
+    "imgSrc": "projects/deal-or-no-deal/index.jpg",
+    "title": "Deal or No Deal"
+  },
+  {
+    "link": "projects/death-run-3d/index.html",
+    "imgSrc": "projects/death-run-3d/img/death.png",
+    "title": "Death Run 3D"
+  },
+  {
+    "link": "projects/defend-the-tank/index.html",
+    "imgSrc": "projects/defend-the-tank/images/splash.jpg",
+    "title": "Defend the Tank"
+  },
+  {
+    "link": "projects/doge2048/index.html",
+    "imgSrc": "projects/doge2048/meta/apple-touch-icon.png",
+    "title": "Doge 2048"
+  },
+  {
+    "link": "projects/DogeMiner/index.html",
+    "imgSrc": "projects/DogeMiner/img/dogeminer_300x300.png",
+    "title": "Doge Miner"
+  },
+  {
+    "link": "projects/doodle-jump/index.html",
+    "imgSrc": "projects/doodle-jump/doodle.png",
+    "title": "Doodle Jump"
+  },
+  {
+    "link": "projects/doublewires/index.html",
+    "imgSrc": "projects/doublewires/doublewires.png",
+    "title": "Double Wires"
+  },
+  {
+    "link": "projects/draw-the-hill/index.html",
+    "imgSrc": "projects/draw-the-hill/icons/icon-512.png",
+    "title": "Draw the Hill"
+  },
+  {
+    "link": "projects/ducklife1/index.html",
+    "imgSrc": "projects/ducklife1/ducklife.png",
+    "title": "Duck Life"
+  },
+  {
+    "link": "projects/ducklife2/index.html",
+    "imgSrc": "projects/ducklife2/ducklife2.png",
+    "title": "Duck Life 2"
+  },
+  {
+    "link": "projects/ducklife3/index.html",
+    "imgSrc": "projects/ducklife3/duck.png",
+    "title": "Duck Life 3"
+  },
+  {
+    "link": "projects/edgenotfound/index.html",
+    "imgSrc": "projects/edgenotfound/edge.png",
+    "title": "Edge Not Found"
+  },
+  {
+    "link": "projects/elasticman/index.html",
+    "imgSrc": "projects/elasticman/elasticman.jpg",
+    "title": "Elastic Man"
+  },
+  {
+    "link": "projects/endlesswar3/index.html",
+    "imgSrc": "projects/endlesswar3/endlesswar3.png",
+    "title": "Endless War 3"
+  },
+  {
+    "link": "projects/evil-glitch/index.html",
+    "imgSrc": "projects/evil-glitch/evil.png",
+    "title": "Evil Glitch"
+  },
+  {
+    "link": "projects/exo/index.html",
+    "imgSrc": "projects/exo/img/small.jpg",
+    "title": "Exo"
+  },
+  {
+    "link": "projects/factoryballs/index.html",
+    "imgSrc": "projects/factoryballs/images/splash.png",
+    "title": "Factory Balls Forever"
+  },
+  {
+    "link": "projects/fake-virus/icon.png",
+    "imgSrc": "projects/fake-virus/icon.png",
+    "title": "Fake Virus"
+  },
+  {
+    "link": "projects/flappy-2048/index.html",
+    "imgSrc": "projects/flappy-2048/meta/apple-touch-icon.png",
+    "title": "Flappy 2048"
+  },
+  {
+    "link": "projects/flappy-bird/index.html",
+    "imgSrc": "projects/flappy-bird/assets/thumb.png",
+    "title": "Flappy Bird"
+  },
+  {
+    "link": "projects/flashtetris/index.html",
+    "imgSrc": "projects/flashtetris/flashtetris.png",
+    "title": "Flash Tetris"
+  },
+  {
+    "link": "projects/game-inside/index.html",
+    "imgSrc": "projects/game-inside/img/display.png",
+    "title": "Game Inside a Game Inside a Game..."
+  },
+  {
+    "link": "projects/geodash/index.html",
+    "imgSrc": "projects/geodash/geoscratchicon.png",
+    "title": "Geometry Dash (Scratch)"
+  },
+  {
+    "link": "projects/getaway-shootout/index.html",
+    "imgSrc": "projects/getaway-shootout/img/images.jpg",
+    "title": "Getaway Shootout"
+  },
+  {
+    "link": "projects/gimme-the-airpod/index.html",
+    "imgSrc": "projects/gimme-the-airpod/img/logo.png",
+    "title": "Gimme the Airpod"
+  },
+  {
+    "link": "projects/glass-city/index.html",
+    "imgSrc": "projects/glass-city/image.png",
+    "title": "Glass City"
+  },
+  {
+    "link": "projects/google-snake/index.html",
+    "imgSrc": "projects/google-snake/img/snake.png",
+    "title": "Google Snake"
+  },
+  {
+    "link": "projects/grindcraft/index.html",
+    "imgSrc": "projects/grindcraft/img/splash.png",
+    "title": "Grind Craft"
+  },
+  {
+    "link": "projects/hackertype/index.html",
+    "imgSrc": "projects/hackertype/logo192.png",
+    "title": "Hacker Typer"
+  },
+  {
+    "link": "projects/hba/index.html",
+    "imgSrc": "projects/hba/hoverbotarena.jpg",
+    "title": "Hover Bot Arena"
+  },
+  {
+    "link": "projects/helicopter/index.html",
+    "imgSrc": "projects/helicopter/helicopter.png",
+    "title": "Helicopter"
+  },
+  {
+    "link": "projects/hexempire/index.html",
+    "imgSrc": "projects/hexempire/hexempire.jpg",
+    "title": "Hex Empire"
+  },
+  {
+    "link": "projects/HexGL/index.html",
+    "imgSrc": "projects/HexGL/icon_256.png",
+    "title": "HexGL"
+  },
+  {
+    "link": "projects/hextris/index.html",
+    "imgSrc": "projects/hextris/images/hextris-logo.png",
+    "title": "Hextris"
+  },
+  {
+    "link": "projects/idle-breakout/index.html",
+    "imgSrc": "projects/idle-breakout/img/thumbnail.png",
+    "title": "Idle Breakout"
+  },
+  {
+    "link": "projects/idle-shark/index.html",
+    "imgSrc": "projects/idle-shark/img/sharkgame.png",
+    "title": "Idle Shark"
+  },
+  {
+    "link": "projects/impossiblequiz/index.html",
+    "imgSrc": "projects/impossiblequiz/impossiblequiz.png",
+    "title": "Impossible Quiz"
+  },
+  {
+    "link": "projects/interactivebuddy/index.html",
+    "imgSrc": "projects/interactivebuddy/interactivebuddy.jpg",
+    "title": "Interactive Buddy"
+  },
+  {
+    "link": "projects/just-one-boss/index.html",
+    "imgSrc": "projects/just-one-boss/pv1Gr5.png",
+    "title": "Just One Boss"
+  },
+  {
+    "link": "projects/kittencannon/index.html",
+    "imgSrc": "projects/kittencannon/kittencannon.png",
+    "title": "Kitten Cannon"
+  },
+  {
+    "link": "projects/krunker/index.html",
+    "imgSrc": "projects/krunker/img/krunker-io.jpg",
+    "title": "Krunker"
+  },
+  {
+    "link": "projects/learntofly/index.html",
+    "imgSrc": "projects/learntofly/learntofly.png",
+    "title": "Learn To Fly"
+  },
+  {
+    "link": "projects/mario/index.html",
+    "imgSrc": "projects/mario/Theme/Mario.gif",
+    "title": "Mario"
+  },
+  {
+    "link": "projects/matrixrampage/index.html",
+    "imgSrc": "projects/matrixrampage/matrixrampage.jpg",
+    "title": "Matrix Rampage"
+  },
+  {
+    "link": "projects/meme2048/index.html",
+    "imgSrc": "projects/meme2048/img/rickroll.gif",
+    "title": "Meme 2048"
+  },
+  {
+    "link": "projects/minecraft/index.html",
+    "imgSrc": "projects/minecraft/splash.jpeg",
+    "title": "Eaglercraft"
+  },
+  {
+    "link": "projects/minecraft-classic/index.html",
+    "imgSrc": "projects/minecraft-classic/pack.png",
+    "title": "Minecraft Classic"
+  },
+  {
+    "link": "projects/minesweeper/index.html",
+    "imgSrc": "projects/minesweeper/img/minesweeper.png",
+    "title": "Minesweeper"
+  },
+  {
+    "link": "projects/miniputt/index.html",
+    "imgSrc": "projects/miniputt/miniputt.png",
+    "title": "Mini-putt"
+  },
+  {
+    "link": "projects/missiles/index.html",
+    "imgSrc": "projects/missiles/miss.png",
+    "title": "Missiles"
+  },
+  {
+    "link": "projects/motox3m/index.html",
+    "imgSrc": "projects/motox3m/splash.jpg",
+    "title": "MotoX3M"
+  },
+  {
+    "link": "projects/motox3m-pool/index.html",
+    "imgSrc": "projects/motox3m-pool/splash.jpg",
+    "title": "MotoX3M Pool"
+  },
+  {
+    "link": "projects/motox3m-spooky/index.html",
+    "imgSrc": "projects/motox3m-spooky/splash.jpeg",
+    "title": "MotoX3M Spooky"
+  },
+  {
+    "link": "projects/motox3m-winter/index.html",
+    "imgSrc": "projects/motox3m-winter/download.jpeg",
+    "title": "MotoX3M Winter"
+  },
+  {
+    "link": "projects/n-gon/index.html",
+    "imgSrc": "projects/n-gon/bot.png",
+    "title": "n-gon"
+  },
+  {
+    "link": "projects/ns-shaft/index.html",
+    "imgSrc": "projects/ns-shaft/favicon.png",
+    "title": "NS-Shaft"
+  },
+  {
+    "link": "projects/om-bounce/index.html",
+    "imgSrc": "projects/om-bounce/assets/icon.jpeg",
+    "title": "Om Nom Bounce"
+  },
+  {
+    "link": "projects/pandemic2/index.html",
+    "imgSrc": "projects/pandemic2/pandemic2.png",
+    "title": "Pandemic 2"
+  },
+  {
+    "link": "projects/papaspizzaria/index.html",
+    "imgSrc": "projects/papaspizzaria/papaspizzaria.jpg",
+    "title": "Papa's Pizzaria"
+  },
+  {
+    "link": "projects/paperio2/index.html",
+    "imgSrc": "projects/paperio2/images/icon512.png",
+    "title": "Paper.io 2"
+  },
+  {
+    "link": "projects/papery-planes/index.html",
+    "imgSrc": "projects/papery-planes/splash.jpg",
+    "title": "Papery Planes"
+  },
+  {
+    "link": "projects/particle-clicker/index.html",
+    "imgSrc": "projects/particle-clicker/assets/mobile/original.png",
+    "title": "Particle Clicker"
+  },
+  {
+    "link": "projects/polybranch/index.html",
+    "imgSrc": "projects/polybranch/img/pic1.png",
+    "title": "PolyBranch"
+  },
+  {
+    "link": "projects/portalflash/index.html",
+    "imgSrc": "projects/portalflash/portaltheflashversion.jpg",
+    "title": "Portal (Flash)"
+  },
+  {
+    "link": "projects/precision-client/index.html",
+    "imgSrc": "projects/precision-client/logo.png",
+    "title": "Precision Client (Eaglercraft)"
+  },
+  {
+    "link": "projects/push-the-square/index.html",
+    "imgSrc": "projects/push-the-square/img/splash.png",
+    "title": "Push The Square"
+  },
+  {
+    "link": "projects/push-your-luck/index.html",
+    "imgSrc": "projects/push-your-luck/assets/img/push.png",
+    "title": "Push Your Luck"
+  },
+  {
+    "link": "projects/retro-bowl/index.html",
+    "imgSrc": "projects/retro-bowl/img/icon.jpg",
+    "title": "Retro Bowl"
+  },
+  {
+    "link": "projects/rolly-vortex/index.html",
+    "imgSrc": "projects/rolly-vortex/icon-256.png",
+    "title": "Rolly Vortex"
+  },
+  {
+    "link": "projects/rooftop-snipers/index.html",
+    "imgSrc": "projects/rooftop-snipers/img/preview.png",
+    "title": "Rooftop Snipers"
+  },
+  {
+    "link": "projects/sand-game/index.html",
+    "imgSrc": "projects/sand-game/sand.png",
+    "title": "Sand Game"
+  },
+  {
+    "link": "projects/slope/index.html",
+    "imgSrc": "projects/slope/slope4.jpeg",
+    "title": "Slope"
+  },
+  {
+    "link": "projects/sm64/index.html",
+    "imgSrc": "projects/sm64/logo.png",
+    "title": "Super Mario 64"
+  },
+  {
+    "link": "projects/smashkarts/index.html",
+    "imgSrc": "projects/smashkarts/images/icon-512.png",
+    "title": "Smash Carts"
+  },
+  {
+    "link": "projects/smokingbarrels/index.html",
+    "imgSrc": "projects/smokingbarrels/smokingbarrels.jpg",
+    "title": "Smoking Barrels"
+  },
+  {
+    "link": "projects/snowbattle/index.html",
+    "imgSrc": "projects/snowbattle/img/logo.png",
+    "title": "Snowbattle"
+  },
+  {
+    "link": "projects/soldier-legend/index.html",
+    "imgSrc": "projects/soldier-legend/images/splash.jpeg",
+    "title": "Soilder Legend"
+  },
+  {
+    "link": "projects/solitaire/index.html",
+    "imgSrc": "projects/solitaire/screen-shot.png",
+    "title": "Solitare"
+  },
+  {
+    "link": "projects/sort-the-court/index.html",
+    "imgSrc": "projects/sort-the-court/img/splash.png",
+    "title": "Sort The Court"
+  },
+  {
+    "link": "projects/soundboard/index.html",
+    "imgSrc": "projects/soundboard/img/mlg-favicon.png",
+    "title": "Soundboard"
+  },
+  {
+    "link": "projects/stack/index.html",
+    "imgSrc": "projects/stack/stack.png",
+    "title": "Stack"
+  },
+  {
+    "link": "projects/stack-bump-3d/index.html",
+    "imgSrc": "projects/stack-bump-3d/thumbnail.jpg",
+    "title": "Stack Bump 3D"
+  },
+  {
+    "link": "projects/stealingthediamond/index.html",
+    "imgSrc": "projects/stealingthediamond/stealingthediamond.jpg",
+    "title": "Stealing The Diamond"
+  },
+  {
+    "link": "projects/stickwar/index.html",
+    "imgSrc": "projects/stickwar/stickwar.jpg",
+    "title": "Stick War"
+  },
+  {
+    "link": "projects/stormthehouse2/index.html",
+    "imgSrc": "projects/stormthehouse2/stormthehouse2.jpg",
+    "title": "Storm The House 2"
+  },
+  {
+    "link": "projects/superhot/index.html",
+    "imgSrc": "projects/superhot/hot.jpg",
+    "title": "Superhot"
+  },
+  {
+    "link": "projects/swerve/index.html",
+    "imgSrc": "projects/swerve/img/favicon.jpg",
+    "title": "Swerve"
+  },
+  {
+    "link": "projects/tacticalassasin2/index.html",
+    "imgSrc": "projects/tacticalassasin2/tacticalassassin2.png",
+    "title": "Tactical Assassin 2"
+  },
+  {
+    "link": "projects/tank-trouble-2/index.html",
+    "imgSrc": "projects/tank-trouble-2/tank.jpeg",
+    "title": "Tank Trouble 2"
+  },
+  {
+    "link": "projects/tanuki-sunset/index.html",
+    "imgSrc": "projects/tanuki-sunset/img/cover.png",
+    "title": "Tanuki Sunset"
+  },
+  {
+    "link": "projects/temple-run-2/index.html",
+    "imgSrc": "projects/temple-run-2/img/og-icon.png",
+    "title": "Temple Run 2"
+  },
+  {
+    "link": "projects/thebattle/index.html",
+    "imgSrc": "projects/thebattle/thebattle.png",
+    "title": "The Battle"
+  },
+  {
+    "link": "projects/the-final-earth/index.html",
+    "imgSrc": "projects/the-final-earth/images.png",
+    "title": "The Final Earth"
+  },
+  {
+    "link": "projects/theheist/index.html",
+    "imgSrc": "projects/theheist/theheist.jpg",
+    "title": "The Heist"
+  },
+  {
+    "link": "projects/there-is-no-game/index.html",
+    "imgSrc": "projects/there-is-no-game/logo.png",
+    "title": "There Is No Game"
+  },
+  {
+    "link": "projects/thisistheonlylevel/index.html",
+    "imgSrc": "projects/thisistheonlylevel/thisistheonlylevel.png",
+    "title": "This Is The Only Level"
+  },
+  {
+    "link": "projects/tosstheturtle/index.html",
+    "imgSrc": "projects/tosstheturtle/tosstheturtle.png",
+    "title": "Toss The Turtle"
+  },
+  {
+    "link": "projects/tube-jumpers/index.html",
+    "imgSrc": "projects/tube-jumpers/img/shark.jpg",
+    "title": "Tube Jumpers"
+  },
+  {
+    "link": "projects/tunnel-rush/index.html",
+    "imgSrc": "projects/tunnel-rush/img/tunnel.jpg",
+    "title": "Tunnel Rush"
+  },
+  {
+    "link": "projects/tv-static/index.html",
+    "imgSrc": "projects/tv-static/static.png",
+    "title": "TV Static"
+  },
+  {
+    "link": "projects/vex3/index.html",
+    "imgSrc": "projects/vex3/vex3.png",
+    "title": "Vex 3"
+  },
+  {
+    "link": "projects/vex4/index.html",
+    "imgSrc": "projects/vex4/vex4.png",
+    "title": "Vex 4"
+  },
+  {
+    "link": "projects/vex5/index.html",
+    "imgSrc": "projects/vex5/vex.jpeg",
+    "title": "Vex 5"
+  },
+  {
+    "link": "projects/vex6/index.html",
+    "imgSrc": "projects/vex6/assets/icon.jpeg",
+    "title": "Vex 6"
+  },
+  {
+    "link": "projects/webretro-local/index.html",
+    "imgSrc": "projects/webretro-local/assets/icon204.png",
+    "title": "Web Retro Local"
+  },
+  {
+    "link": "projects/wolf3d/index.html",
+    "imgSrc": "projects/wolf3d/art/wolf3d.png",
+    "title": "Wolfenstein 3D"
+  },
+  {
+    "link": "projects/wordle/index.html",
+    "imgSrc": "projects/wordle/img/logo_512x512.png",
+    "title": "Wordle"
+  },
+  {
+    "link": "projects/worlds-hardest-game/index.html",
+    "imgSrc": "projects/worlds-hardest-game/images/splash.jpg",
+    "title": "World's Hardest Game"
+  },
+  {
+    "link": "projects/worlds-hardest-game-2/index.html",
+    "imgSrc": "projects/worlds-hardest-game-2/the-worlds-hardest-game-2.jpg",
+    "title": "World's Hardest Game 2"
+  },
+  {
+    "link": "projects/you-are-bezos/index.html",
+    "imgSrc": "projects/you-are-bezos/img/banner.png",
+    "title": "You Are Jeff Bezos"
+  },
+  {
+    "link": "projects/1v1lol/index.html",
+    "imgSrc": "projects/1v1lol/splash.png",
+    "title": "1v1.lol"
   }
 ]
-games.sort(function (a, b) {
-  return a.title.localeCompare(b.title);
-});
-var customGameId = "customgame"; // replace with the id of the game you want to pin
-var customGame = games.find(function (game) {
-  return game.id === customGameId;
-});
-games.splice(games.indexOf(customGame), 1);
-games.unshift(customGame);
-
-var customgames = getObj("customgames")
-if (customgames) customgames.forEach(game => {
-  games.push(game)
-})
-
-console.log("Loaded " + games.length + " games")
-if (customgames) console.log("Loaded " + customgames.length + " custom games")
-
-console.log("Loaded " + games.length + " games")
-if (customgames) console.log("Loaded " + customgames.length + " custom games")
